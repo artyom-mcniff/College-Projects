@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title> Bookwyrm - Contact </title>
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/site.css">
+	<script src="Assets/Scripts/site.js"></script>
+	</head>
+	
+	<body>
+		<div id="main">
+		<header>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="recommendations.html">Recomended Reading</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+			
+		</header>
+			
+			<h2> Contact Me </h2>
+			
+			
+		
+			<form action="serverl-script-url" name="contactForm" onsubmit="return( validate() );">
+			
+			<table>
+				<tr>
+					<td>
+				<label>
+					<span>First Name:</span><span class="errorMessage" id="firstnameMessage"></span>
+					
+					<input type="text" class="generalInput" name="firstname">
+				</label>
+					</td>
+			
+			
+					<td>
+				<label>
+					<span>Last Name:</span><span class="errorMessage" id="lastnameMessage"></span>
+					<input type="text" class="generalInput" name="lastname">
+				</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+				<label>
+				<span>Email</span><span class="errorMessage" id="emailMessage"></span>
+				</label>
+				<input type="text" class="generalInput" name="email">
+					</td>
+				
+			
+			
+				
+					<td>
+				<label>Gender</label>
+				<input type="radio" name="gender" value="Male">Male
+				<input type="radio" name="gender" value="Female">Female
+				<input type="radio" name="gender" value="Other" checked>Other
+					
+					</td>
+				</tr>
+			
+			<tr>
+				<td>
+				<label>Subject</label>
+				<select class="generalInput">
+					<option value="generalInquiry">General Inquiry</option>
+					<option value="technicalIssue">Technical Difficulty</option>
+					<option value="businessInquiry">Business Inquiry</option>
+					<option value="other">Other</option>
+				</select>
+				</td>
+				<td>
+				
+				
+				<input type="checkbox" name="promo" value="promo">Recieve further promotional offers in your email?
+				</td>
+			</tr>
+			
+			
+			
+			</table>
+			
+			<textarea name="message" rows="10" cols="30">
+			
+			</textarea>
+			
+			<button type="submit">Submit</button>
+			
+			</form>
+			
+			
+			
+
+				<footer>
+				<p> Site by: Artyom McNiff &copy; 2021 </p>
+				</footer>				
+
+			</div>
+
+		</body>
+
+</html>			

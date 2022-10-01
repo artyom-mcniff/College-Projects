@@ -1,0 +1,235 @@
+
+
+body {
+	background-image: url("../Images/background.jpg");
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	background-color: #fffdd0;
+	width: 70vw;
+	margin: auto;
+	min-height: 100vh;
+	border: 0.06rem black solid;
+	margin-bottom: 10px;
+}
+
+#welcome {transition-timing-function: ease;}
+	
+#welcome h1{
+	margin-left: 0.625rem;
+	display: block;
+	margin: 0.125rem 0 0 0;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+	font-size: 4rem;
+	color: #fffdd0;
+	
+}
+
+#welcome h1:hover{
+	background-color: #D0D2FF;
+}
+
+#welcome img{
+	margin-right: 0.625rem;
+	width: 10rem;
+	float: left;
+}
+
+h2{
+	background-color: #D0D2FF;
+	color: #fffdd0;
+	font-family: brush script mt;
+	text-align: center;
+	font-size: 3rem;
+	padding: 1rem
+}
+
+h3{
+	color: #D0D2FF;
+	font-family: verdana;
+	
+}
+
+h4{
+	color: #777dff;
+	font-family: verdana;
+	text-align: center;
+	font-size: 1rem;
+	
+}
+
+.content {
+	text-align: center;
+	margin: 1rem;
+	padding: 1rem;
+	padding-top: 3rem;
+	border: 0.5rem #D0D2FF solid;
+}
+
+.content img{
+	width: 10rem;
+}
+
+header h1 {
+	color: #777dff;
+	font-size: 3.125rem;
+	font-family: serif;
+	text-align: center;
+	margin-top: 0.313rem;
+	margin-bottom: 1rem;
+	padding-top: 4rem;
+	border-bottom: 0.5rem #D0D2FF solid;
+}
+
+
+ol {
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	background-color: black;
+}
+
+li {
+	float: left;
+}
+
+p{
+	font-family: verdana;
+}
+
+	
+
+li a{
+	
+	float: left;
+	display: block;
+	background-color: #fffdd0;
+	color: black;
+	text-align: center;
+	padding: 0.875rem 1rem;
+	text-decoration: none;
+	font-size: 1.063rem;
+	border: 0.06rem #D0D2FF solid;
+	
+}
+li a:hover{
+	background-color: #D0D2FF;
+}
+
+li a.active{
+	background-color: #777dff;
+	color: white
+}
+
+iframe{
+	border: 0%;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #D0D2FF;
+	padding: 0.313rem;
+	color: white;
+}
+
+
+
+.textWithImage{
+	margin: 1rem;
+	padding-top: 3rem;
+	border: 0.06rem
+}
+
+
+.textWithImage h3, p{
+	margin-left: 0.625rem;
+	display: block;
+	margin: 0.125rem 0 0 0;
+	font-family: serif;
+	
+}
+.textWithImage img {
+	margin-right: 0.625rem;
+	width: 5vw;
+	float: left;
+	border: 0.06rem white solid;
+}
+
+table {
+	border: 0.06rem black solid;
+	background-color: white;
+	margin: auto;
+}
+
+td{
+	text-align: center;
+}
+
+.generalInput{
+	width: 23.438rem;
+	display: block;
+	border: 0.06rem blue solid;
+	height: 1.6rem;
+	margin-bottom: 1.3rem;
+	
+}
+
+.errorMessage{
+	color: #d42b96;
+	font-size: 0.938rem;
+	font-weight: bold;
+}
+
+
+@media	only	screen	and	(max-width	:	75rem)	{
+html,	body	{
+	height:	100%;
+	font-size:	1.25rem;
+	}
+}
+
+@media	only	screen	and	(max-width	:	62rem)	{
+html,	body	{
+	height:	100%;
+	font-size:	1rem;
+	}
+}
+
+@media	only	screen	and	(max-width	:	48rem)	{
+html,	body	{
+	height:	100%;
+	font-size:	0.75rem;
+						}
+				}
+
+@media	only	screen	and	(max-width	:	30rem)	{
+html,	body	{
+	height:	100%;
+	font-size:	0.625rem;
+	}
+}
+
+@media	only	screen	and	(max-width	:	320px)	{
+html,	body	{
+	height:	100%;
+	font-size:	0.5rem;
+	}
+}
+  
+
+
+
+
+
