@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B1E4B21-6838-BE60-15AB-7F08895BA5C6" name="bookingreceipt">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>30236322-2D79-D332-A7D9-23807A0D8E7C</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bookid" id="A2D06929-3E99-E94C-7B13-66E115171571">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>B2E4B285-7987-D997-BE5C-FA261164AE22</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numberofcust" id="CA55CE78-8AF6-1717-51CE-D53F63EF0467">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>C9354297-7C79-A2F1-C1B1-4AE627964D93</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingtime" id="7289F20B-C775-FB03-ADA8-F78DE18807BD">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>6A491A70-C4BF-ABDF-18C0-905C2393FCC5</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>53FE70F9-1501-614D-B396-34B0FA28AC24</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timeduration" id="3360E93F-5EB9-82C6-A55B-C9B6EE26AFEE">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>71273C9E-6150-DC32-2169-30DEEDB40C60</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31FF136C-0003-3BAF-5F6B-43B9890E730F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="durationspent" id="3138D40D-1BB0-BCF5-7FB8-88E59CD2BADE">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>E374AD27-D899-C6C3-5100-4E565672C03A</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>31FF136C-0003-3BAF-5F6B-43B9890E730F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookbill" id="1D41200D-1EA3-C016-2B7C-5B1F9EA4D49E">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>772BA3AC-C0E8-F786-EDF4-F6574DCF3E1B</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>044E8044-2DC3-DF64-62B5-3CD9D4751D2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F6AB8DA-6685-55F0-EF67-4B1DA3F2D13A" name="bookingreceipt pk">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>6DBC05CD-017A-2FCD-79FE-8C6DDFEAB8F5</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2D06929-3E99-E94C-7B13-66E115171571</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

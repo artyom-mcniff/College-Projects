@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="restauranttable_customer_fk" directorySegmentName="seg_0" id="A97E867D-8394-D47E-9F8C-81FFC0653ABA">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>43A511D5-5452-B650-4592-DBCF1F57E760</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<sourcePk>23FEE5EE-81FF-112E-CED1-B41E3C34C4FC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7DC2BCFF-13F1-9B80-5B2B-AB9339168FEA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>92BFC6A8-38C1-E67A-30E5-007D4320D454</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

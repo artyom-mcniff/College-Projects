@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="restauranttable" directorySegmentName="seg_0" id="5F368830-5275-22D3-A6AF-81C9981AA5C6">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="tablelocation" id="097E09FB-960E-424F-88EF-8E53B59BDEFB">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tableid" id="6914C23B-5CBF-0C70-CE4E-C01BBA0EE4B6">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_custid" id="B0E178DC-95A6-AC33-6757-932C516B3222">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tabletype" id="B81C2BA4-875F-5496-C9B9-4E1528009F35">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="restauranttable_customer_fk" id="EB4CE072-47F2-E44E-6FD5-E2210B21F974">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="restauranttable_pk" id="65554FC4-107D-0E1B-59DE-55A586D1A2C1">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

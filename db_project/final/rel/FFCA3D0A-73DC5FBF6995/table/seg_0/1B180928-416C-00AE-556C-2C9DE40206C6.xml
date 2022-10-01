@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B180928-416C-00AE-556C-2C9DE40206C6" name="employmentdetails">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>DCEB7B97-3290-9BCE-7751-CE825F178328</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="empid" id="9D6DD985-AA2C-37B7-6431-AF42DD930F55">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>B9B96234-99A0-C92A-C606-D9BC204C6A81</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empname" id="6E370D71-4CA2-4812-5AB3-C09796CDB0D6">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>789EE4E9-C756-D692-A25D-D84B79FF315B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F03C82D0-8034-4688-B489-91913BFADCE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empaddress" id="328A150B-635A-9336-1A3C-9042A79FE381">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>360D886C-4AF3-E2C6-F6B5-9E8D20C41069</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F3A2F68C-C2CE-6446-2E69-404335C8E87D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empphoneno" id="F92641E8-2516-5A1A-1329-597C4420651D">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>85C957B3-6376-DE67-5E3C-36BE4D80453C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>20F48553-D87E-ACAF-5661-B606A8FA0879</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empemail" id="A18E9311-82DA-01E2-5A79-CC076066E98D">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>2DAE2990-7A50-55B4-32D1-5DC6E2533474</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8BB9FD3-67FE-A172-A3DF-E7EAD4E715CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empdateofbirth" id="5DAE74B7-98DE-A969-CF95-DE03B3DD52BB">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>AAB4D4D7-A7A1-02BC-4954-09E8AB921EA6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2CA95C63-B4F2-D440-A2B3-ACBE98AEBB3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startdate" id="CC6BC783-087C-A24C-5701-B5F383878650">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>6D8E866A-1719-8721-FBC5-17F9F0049E0C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>2CA95C63-B4F2-D440-A2B3-ACBE98AEBB3C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4682EC6-4221-F356-7138-C45032FFE7E0" name="employmentdetails_pk">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>96FB5B88-DDC2-419C-E598-715165BA92F7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6DD985-AA2C-37B7-6431-AF42DD930F55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="empemail_chk" directorySegmentName="seg_0" id="883F9905-B9F8-EB19-2731-63AE7B93CEE3">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>F468188D-7A69-A06C-68CA-655F2113CDDF</importedID>
+<rule><![CDATA[empemail LIKE '%@burgershack.com']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

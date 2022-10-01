@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" mainViewID="593C2F42-BF49-6C60-D465-D269A02A0093">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:32:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>db_project_data.sql</fileName>
+<pathName>C:\Users\Conan\OneDrive\Desktop\College\db_project</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

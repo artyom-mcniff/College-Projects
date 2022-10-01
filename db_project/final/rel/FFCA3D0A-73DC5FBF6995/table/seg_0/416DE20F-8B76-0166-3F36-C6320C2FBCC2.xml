@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="416DE20F-8B76-0166-3F36-C6320C2FBCC2" name="customer">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>0554EDF2-EE6A-E8ED-A35C-74331BF83559</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="custid" id="CC823CD9-825C-293C-6683-93108C0B3FFB">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>3402FBFD-1E48-3EAA-EA7F-CDB4A69D69F3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tableid" id="99AEA3A7-CA7F-EDDC-B96B-E81CB36A6B9F">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>C65FEC04-575D-F1ED-740D-E5B089FAD1B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custname" id="E6CC699A-22B3-855D-455D-318685C13FDB">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>8292A216-BCBA-A7EA-FAAF-19ACC59C3C1A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F03C82D0-8034-4688-B489-91913BFADCE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custaddress" id="AA7C8B1B-CF47-357B-D9F9-FBD2264CC675">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>1D22E3E6-8030-5486-25D9-2E177FA0F4A9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F3A2F68C-C2CE-6446-2E69-404335C8E87D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custphonenumber" id="683EDEF7-2D48-FA3E-CFDC-7B99A920B13E">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>D9E5CD76-43A4-50EE-5354-C9C7FD4F7D0A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>20F48553-D87E-ACAF-5661-B606A8FA0879</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="525937FB-3BD8-5B33-8231-AA5CAC50F447" name="customer_pk">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>2A7586CD-FD9A-6655-9BCA-6586D668ABA5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC823CD9-825C-293C-6683-93108C0B3FFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

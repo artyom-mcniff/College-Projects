@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="E9234DF7-8821-5633-B75B-7DFC99C34F15" name="customerInfo">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>D3ACBC0D-B66D-0524-4609-31869DFB090B</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT custid, custname FROM customer
+UNION
+SELECT bcustid, bcustname FROM customerbooking]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="custid" id="C040B85C-6E5C-016E-F553-4A6F9B56268D">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (7)</dataType>
+<headerAlias>custid</headerAlias>
+<reference>false</reference>
+<referencedColumn>CC823CD9-825C-293C-6683-93108C0B3FFB</referencedColumn>
+<table>416DE20F-8B76-0166-3F36-C6320C2FBCC2</table>
+<viewID>E9234DF7-8821-5633-B75B-7DFC99C34F15</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="custname" id="B51C98B4-1718-AB95-0586-FDFDA5A46F50">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30)</dataType>
+<headerAlias>custname</headerAlias>
+<reference>false</reference>
+<referencedColumn>E6CC699A-22B3-855D-455D-318685C13FDB</referencedColumn>
+<table>416DE20F-8B76-0166-3F36-C6320C2FBCC2</table>
+<viewID>E9234DF7-8821-5633-B75B-7DFC99C34F15</viewID>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="416DE20F-8B76-0166-3F36-C6320C2FBCC2">
+<container>true</container>
+<tableName>customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CC823CD9-825C-293C-6683-93108C0B3FFB">
+<columnName>custid</columnName>
+<tableName>customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E6CC699A-22B3-855D-455D-318685C13FDB">
+<columnName>custname</columnName>
+<tableName>customer</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DC26378D-9537-8237-893C-367F0E4217FE">
+<container>true</container>
+<tableName>customerbooking</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A523E2ED-3F31-A4E1-1221-7091558BAB80">
+<columnName>bcustid</columnName>
+<tableName>customerbooking</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B26AF2F8-7098-0EA6-A31C-F2889D716B78">
+<columnName>bcustname</columnName>
+<tableName>customerbooking</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

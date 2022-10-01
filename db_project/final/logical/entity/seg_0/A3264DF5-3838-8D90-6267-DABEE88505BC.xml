@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3264DF5-3838-8D90-6267-DABEE88505BC" name="customerbooking">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>DC26378D-9537-8237-893C-367F0E4217FE</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bcustid" id="F4AA4EF1-1D14-9DE0-2822-4CCDBA313951">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>A523E2ED-3F31-A4E1-1221-7091558BAB80</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bcustnum" id="B4473066-01E5-F1CF-666F-4C6D061CF02E">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>A2CA272B-5903-0C05-47D2-181C22AB0919</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B38D83D4-CA04-FEFC-17D6-D3199C1861EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bcustaddress" id="2EA5BD94-8C96-8F47-174C-835340F20BDD">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>24D0B444-0FB5-DB83-6101-3163A451C08B</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F3A2F68C-C2CE-6446-2E69-404335C8E87D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bcustname" id="77B7612B-DB60-31A5-171C-244B8740B550">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>B26AF2F8-7098-0EA6-A31C-F2889D716B78</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F03C82D0-8034-4688-B489-91913BFADCE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bcustemail" id="91536AFA-7AA1-961C-C4E0-ED1B96E0C79A">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>E3F9D92A-8A6C-DA57-4A35-4684809B81E6</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8BB9FD3-67FE-A172-A3DF-E7EAD4E715CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bcustage" id="7B866B5C-2E51-868D-B461-74500B384008">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>58293F9C-B9E0-8897-7416-F67DF4F73886</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0B1A6D13-07D0-F021-92E4-FA1FC08185CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numberofbookings" id="A524815D-8FEF-09F7-80A1-972895BB1270">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>4B73AF89-30AB-185A-4580-65311E70CF6F</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B38D83D4-CA04-FEFC-17D6-D3199C1861EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer custid" id="74E6A6B3-96CE-F6D3-F1F7-20D9404BD986">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>62687B44-62B8-0A93-A7B1-00059E85C405</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<referedAttribute>CC9DDB7C-EB2E-CD37-277F-F0572D9D8D76</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bookingtype" id="BB1DC9E8-20F2-E007-C202-173008DF5ECA">
+<createdBy>Artyom</createdBy>
+<createdTime>2021-12-11 20:44:11 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F324CE3-6858-9D26-D808-77E231FDD184</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D62B2980-08EB-0002-8622-D2C472043E22" name="customerbooking pk">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>488641CA-50D7-AB39-1077-BD08EB6DD0D0</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4AA4EF1-1D14-9DE0-2822-4CCDBA313951</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C7D4AC84-5E2E-E417-BD6D-10A41C0B9200" name="bcustemail uniq">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>6DD790EF-5AE5-80FE-3E91-300CEFC0D594</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>91536AFA-7AA1-961C-C4E0-ED1B96E0C79A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

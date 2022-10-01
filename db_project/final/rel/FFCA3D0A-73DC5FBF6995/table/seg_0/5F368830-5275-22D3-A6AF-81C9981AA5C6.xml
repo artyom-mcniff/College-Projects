@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F368830-5275-22D3-A6AF-81C9981AA5C6" name="restauranttable">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>021C5263-8480-1810-12E4-2C3AD528A7B5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tableid" id="6914C23B-5CBF-0C70-CE4E-C01BBA0EE4B6">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>8451A57E-F597-8A5D-E664-77575814986D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tabletype" id="B81C2BA4-875F-5496-C9B9-4E1528009F35">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>0A3D8773-4894-92C8-E4FA-02F342212939</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F324CE3-6858-9D26-D808-77E231FDD184</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tablelocation" id="097E09FB-960E-424F-88EF-8E53B59BDEFB">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>11C44649-8D5A-0C45-F7B4-71DC3B3E4FC9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F324CE3-6858-9D26-D808-77E231FDD184</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_custid" id="B0E178DC-95A6-AC33-6757-932C516B3222">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>7B5AD919-7837-4962-D59B-2B081B29ADEE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43A511D5-5452-B650-4592-DBCF1F57E760" referredColumn="CC823CD9-825C-293C-6683-93108C0B3FFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65554FC4-107D-0E1B-59DE-55A586D1A2C1" name="restauranttable_pk">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>5FB6616B-BA28-3562-2452-0CB09CDBE0A4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6914C23B-5CBF-0C70-CE4E-C01BBA0EE4B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB4CE072-47F2-E44E-6FD5-E2210B21F974" name="restauranttable_customer_fk">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0E178DC-95A6-AC33-6757-932C516B3222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

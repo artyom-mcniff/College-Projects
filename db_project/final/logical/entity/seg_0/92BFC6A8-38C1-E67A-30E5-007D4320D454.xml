@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92BFC6A8-38C1-E67A-30E5-007D4320D454" name="restauranttable">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>5F368830-5275-22D3-A6AF-81C9981AA5C6</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tableid" id="46C91EEA-7206-C500-6F44-39A02651B0EE">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>6914C23B-5CBF-0C70-CE4E-C01BBA0EE4B6</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tabletype" id="12061990-ED50-D42B-4C14-3EE9537F1CFD">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>B81C2BA4-875F-5496-C9B9-4E1528009F35</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F324CE3-6858-9D26-D808-77E231FDD184</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tablelocation" id="D1B513E7-3A3D-4E0D-2566-C516759606B7">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>097E09FB-960E-424F-88EF-8E53B59BDEFB</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F324CE3-6858-9D26-D808-77E231FDD184</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer custid" id="DF86461C-F928-85D6-3DB8-BAD225D5F042">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>A97E867D-8394-D47E-9F8C-81FFC0653ABA</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<referedAttribute>CC9DDB7C-EB2E-CD37-277F-F0572D9D8D76</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93AF5D4D-4FEE-207C-06D3-A60289C19220" name="restauranttable pk">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:35:03 UTC</createdTime>
+<generatorID>65554FC4-107D-0E1B-59DE-55A586D1A2C1</generatorID>
+<ownerDesignName>final</ownerDesignName>
+<engineerTo>
+<item key="FFCA3D0A-9C9F-76AA-3197-73DC5FBF6995" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46C91EEA-7206-C500-6F44-39A02651B0EE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC26378D-9537-8237-893C-367F0E4217FE" name="customerbooking">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>C3237D5B-D976-3FC0-9F61-31661CA12455</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bcustid" id="A523E2ED-3F31-A4E1-1221-7091558BAB80">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>43C15890-5388-2E2A-901F-47083A66EE5C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bcustnum" id="A2CA272B-5903-0C05-47D2-181C22AB0919">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>45E8B4BE-EBC5-DE0B-FC10-157F25960EF6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B38D83D4-CA04-FEFC-17D6-D3199C1861EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bcustaddress" id="24D0B444-0FB5-DB83-6101-3163A451C08B">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>DB90FD2A-A064-7862-40E4-05E29C7B06A3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F3A2F68C-C2CE-6446-2E69-404335C8E87D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bcustname" id="B26AF2F8-7098-0EA6-A31C-F2889D716B78">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>B4208B2E-1006-6DB7-958D-D2FEB193D89B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F03C82D0-8034-4688-B489-91913BFADCE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bcustemail" id="E3F9D92A-8A6C-DA57-4A35-4684809B81E6">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>37F672CE-CBBE-C1B2-D863-0FC12283C3A6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D8BB9FD3-67FE-A172-A3DF-E7EAD4E715CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bcustage" id="58293F9C-B9E0-8897-7416-F67DF4F73886">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>845FE224-9544-276C-84CC-0C6A674C21B0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0B1A6D13-07D0-F021-92E4-FA1FC08185CA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numberofbookings" id="4B73AF89-30AB-185A-4580-65311E70CF6F">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>DBCC14A6-0CCC-8CB5-F372-E9FA3BEABDB5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B38D83D4-CA04-FEFC-17D6-D3199C1861EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_custid" id="B865E080-85BD-9576-F1EA-3AD91C29134A">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>2F601141-1827-129A-1AE2-022A4EEBC8E7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D014CD6F-0DB1-8993-1CFC-19DB05A71978</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A201D5AD-34DE-54A2-3226-AD4A5BE49B78" referredColumn="CC823CD9-825C-293C-6683-93108C0B3FFB"/>
+</associations>
+</Column>
+<Column name="bookingtype" id="E7190EAD-BE3D-3CDC-87AB-9E727A57A2C7">
+<createdBy>Artyom</createdBy>
+<createdTime>2021-12-11 20:37:18 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9F324CE3-6858-9D26-D808-77E231FDD184</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="488641CA-50D7-AB39-1077-BD08EB6DD0D0" name="customerbooking_pk">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>53145DA7-BC4A-D5F0-7746-5E90735247A0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A523E2ED-3F31-A4E1-1221-7091558BAB80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DD790EF-5AE5-80FE-3E91-300CEFC0D594" name="bcustemail_uniq">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>E227E06D-A66D-8B2C-3201-A85393A0F723</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3F9D92A-8A6C-DA57-4A35-4684809B81E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A5D1FED-BA85-427C-AA28-F01644A7F2D3" name="customerbooking_customer_fk">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B865E080-85BD-9576-F1EA-3AD91C29134A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="bcustage_chk" directorySegmentName="seg_0" id="627E30E2-76DB-A8E5-6248-E63FBD422681">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>3BBD10BC-91F0-5006-825B-8CC1B5DB316E</importedID>
+<rule><![CDATA[bcustage > 18]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="bcustemail_chk" directorySegmentName="seg_0" id="C6E8749C-8954-3A67-DFE6-E7182506B3AA">
+<sourceDDLFile>db_project_data.sql</sourceDDLFile>
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:33:54 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<importedID>71A6D74D-7399-9E4A-7DDD-E8DC0FD722E0</importedID>
+<rule><![CDATA[bcustemail LIKE '%@%.com']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

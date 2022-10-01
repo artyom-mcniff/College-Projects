@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="final" id="7AAD5BEE-E078-3BC7-B3FD-4B36B8C49EA2" version="3.5">
+<createdBy>Conan</createdBy>
+<createdTime>2021-12-11 02:32:52 UTC</createdTime>
+<ownerDesignName>final</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7AAD5BEE-E078-3BC7-B3FD-4B36B8C49EA2</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F1D7A0AD-4FA4-91F5-B57A-63D44B81209C">
+<designStoragePath>C:\db_project_data</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
